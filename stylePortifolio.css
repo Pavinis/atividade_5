@@ -1,0 +1,174 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#1f568fff;
+}
+
+h1 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:rgb(43, 105, 171);
+    font-size:70px;
+}
+
+h2 {
+    margin-left:10px;
+    color:white;
+    font-size:auto;
+}
+
+p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:#1f568fff;
+    font-size:25px;
+}
+
+.row{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+}
+
+.column{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+}
+
+#sticky{
+    display:flex;
+    position:sticky;
+    background-color: rgb(17, 17, 17);
+    height:65px;
+    box-sizing: none;
+}
+
+#sticky p {
+    font-family:arial;
+    color:white;
+    font-size:15px
+}
+
+#sticky b {
+    font-family:arial;
+    color:white;
+    font-size:15px
+}
+
+#stickyLeft{
+    display:flex;
+    width:50%;
+}
+
+#sticky a{
+    text-decoration: none;
+}
+
+#stickyRight{
+    display:flex;
+    justify-content:right;
+    width:50%;
+}
+
+.stickyButton {
+    display:inline-flex;
+    margin:0 15px 0 15px;
+}
+
+#lupin {
+    height: 15px;
+    width:auto;
+}
+
+#dropArrow {
+    margin-left: 10px;
+    height: 5px;
+    width:auto;
+    transform:rotate(180deg);
+}
+
+#dropdown-menu{
+    position:absolute;
+    display:none;
+    background-color: rgb(17, 17, 17);
+    margin-top:1em;
+}
+
+#dropdown-menu a{
+    display:flex;
+    color:rgb(215, 215, 215);
+}
+
+#dropdown:hover #dropdown-menu{
+    display:flex;
+}
+
+#header {
+    transform-style: preserve-3d;
+    perspective: 2px;
+    background-attachment: fixed;
+    background-image: url("header.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 500px;
+}
+
+#titulo{
+    height: 200px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    border-width: 5px;
+    border-color:white;
+    border-style: solid;
+    padding: 0 20px 0 20px;
+}
+
+#conteudo{
+    
+    display: flex;
+    background-image: url("azul\ preto.jpg");
+    background-position: center;
+    background-size: auto;
+}
+
+#conteudoTexto{
+    display: flex;
+    justify-content:center;
+    flex-direction:column;
+    width:100%;
+}
+
+#pMargem{
+    width:500px;
+    height:auto;
+}
+
+#conteudoImagem img{
+    height: 490px;
+    width: auto;
+    margin:20px 40px 20px 10px
+}
+
+#footer{
+    background-color:#1f568fff;
+    height: 70px;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    padding: 0 12.5% 0 37.5%;
+}
+
+#footer p{
+    color:black;
+}
+
+#footer a{
+    color:black;
+}
